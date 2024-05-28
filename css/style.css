@@ -2,9 +2,13 @@
 @import url("./utilitarios/cores.css");
 @import url("./utilitarios/tipografia.css");
 @import url("./global/header.css");
-@import url("./utilitarios/componentes.css");
+
 
 /*HOME*/
 @import url("./home/intro.css");
 
 /*UTILITARIOS/COMPONENTES*/
+@import url("./utilitarios/componentes.css");
+
+/*BICICLETAS*/
+@import url("./biblicletas/bicicletas-lista.css");
