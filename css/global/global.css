@@ -6,6 +6,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 h1,
@@ -25,7 +26,6 @@ ul {
 img {
   max-width: 100%;
   display: block;
- 
 }
 
 [src$=".jpg"]{

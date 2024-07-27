@@ -24,6 +24,28 @@
   background-color: #ffb60d;
 }
 
+.link{
+  display: inline-block;
+  color: var(--cor-p1);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.link::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: currentColor;
+}
+
+.link:hover{
+  color: var(--cor-00);
+}
+
 @media (max-width: 800px) {
   .btn{
     font-size: 1rem;
