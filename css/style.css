@@ -2,15 +2,20 @@
 @import url("./utilitarios/cores.css");
 @import url("./utilitarios/tipografia.css");
 @import url("./global/header.css");
+@import url("./global/footer.css");
 
 
 /*HOME*/
 @import url("./home/intro.css");
 @import url("./home/tecnologia.css");
 @import url("./home/parceiros.css");
+@import url("./home/depoimentos.css");
 
 /*UTILITARIOS/COMPONENTES*/
 @import url("./utilitarios/componentes.css");
 
 /*BICICLETAS*/
 @import url("./biblicletas/bicicletas-lista.css");
+
+/*SEGUROS*/
+@import url("./seguros/seguros.css");
