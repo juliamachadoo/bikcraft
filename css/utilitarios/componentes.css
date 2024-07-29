@@ -35,6 +35,26 @@
 
 }
 
+.btn.seta{
+  display: flex;
+  align-items: center;
+}
+
+.btn.seta::after{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background-image: url("../../img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+
+.btn.seta:hover::after{
+  transform: translateX(4px);
+
+}
+
 .link{
   display: inline-block;
   color: var(--cor-p1);
@@ -57,10 +77,32 @@
   color: var(--cor-00);
 }
 
+/*TÍTULOS INTERNOS*/
+.titulo-bg{
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p{
+  margin-bottom: 4px;
+}
+
 
 @media (max-width: 800px) {
   .btn{
     font-size: 1rem;
     padding: 8px 16px;
+  }
+
+  .titulo-bg{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
   }
 }

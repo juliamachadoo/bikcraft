@@ -32,6 +32,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+.font-1-lb {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+
 .font-1-xl {
   font-weight: 600;
   font-size: 1.75rem;
