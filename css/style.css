@@ -15,11 +15,15 @@
 @import url("./utilitarios/componentes.css");
 
 /*BICICLETAS*/
-@import url("./biblicletas/bicicletas-lista.css");
-@import url("./biblicletas/bicicletas.css");
+@import url("./bicicletas/bicicletas-lista.css");
+@import url("./bicicletas/bicicletas.css");
 
+/* BICICLETA */
+@import url("./bicicleta/bicicleta.css");
 /*SEGUROS*/
 @import url("./seguros/seguros.css");
+@import url("./seguros/vantagens.css");
+@import url("./seguros/perguntas.css");
 
 /*TERMOS*/
 @import url("./termos/termos.css");

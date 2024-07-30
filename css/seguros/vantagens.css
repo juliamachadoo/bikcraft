@@ -1,0 +1,38 @@
+.nossas-vantagens-bg{
+  background-color: var(--cor-12);
+}
+
+.nossas-vantagens{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.nossas-vantagens h2 {
+  margin-bottom: 60px;
+}
+
+.nossas-vantagens ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+.nossas-vantagens h3,
+.nossas-vantagens img{
+  margin-bottom: 8px;
+}
+
+@media(max-width:800px){
+  .nossas-vantagens{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .nossas-vantagens h2{
+    margin-bottom: 40px;
+  }
+
+  .nossas-vantagens ul{
+    gap:20px;
+  }
+}

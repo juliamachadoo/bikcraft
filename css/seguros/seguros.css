@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+#seguros .seguros{
+  padding-top: 0px;
+}
+
 .seguros h2{
   grid-column: 1/-1;
 }
@@ -59,7 +63,6 @@
 .seguros-item a{
   grid-column: 1/-1;
 }
-
 @media(max-width: 800px){
   .seguros{
     grid-template-columns: 1fr;
