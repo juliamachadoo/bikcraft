@@ -13,6 +13,8 @@
 
 /*UTILITARIOS/COMPONENTES*/
 @import url("./utilitarios/componentes.css");
+@import url("./utilitarios/formulario.css");
+
 
 /*BICICLETAS*/
 @import url("./bicicletas/bicicletas-lista.css");
@@ -21,10 +23,15 @@
 /* BICICLETA */
 @import url("./bicicleta/bicicleta.css");
 @import url("./bicicleta/seguro.css");
+
 /*SEGUROS*/
 @import url("./seguros/seguros.css");
 @import url("./seguros/vantagens.css");
 @import url("./seguros/perguntas.css");
+
+/* CONTATO */
+@import url("./contato/contato.css");
+@import url("./contato/lojas.css");
 
 /*TERMOS*/
 @import url("./termos/termos.css");
